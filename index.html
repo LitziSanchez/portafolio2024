@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Litzi Sanchez| Portafolio Web</title>
+</head>
+<body>
+    <!-- Barra de navegacion -->
+     <nav>
+        <h1>Litzi Sanchez</h1>
+        <ul>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu"> 
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+     </nav>
+
+     <!-- Seccion Hero -->
+      <section class="hero">
+        <img src="images/FotoPerfil.png" alt="Foto Litzi Sanchez" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About me</h2>
+          <p>Hola, bienvenido! Soy Litzi Sánchez Soy Mentora Técnica en el BootCamp Desarrollo Web de Tecnolochicas México, una iniciativa de Fundación Televisa ✌</p>
+        </div>
+      </section>
+
+      <section class="more-about">
+        <h2>Te cuento un poco más...</h2>
+        <p>Estudié en la Universidad Tecnológica de Matamoros, Tecnológias de la información y Redes Inteligentes y Cibersguridad.</p>
+        <p>Mi marca personal comenzó en 2024, y me enfoco en proyectos de diseño gráfico y proximamente tambien web.</p>
+        <p>Me gusta el arte, la tecnologia, los kdramas y los gatos.</p>
+      </section>
+
+      <!-- skills -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="icons/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+          <img src="icons/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+          <img src="icons/icons8-javascript.svg" alt="Javascript" loading="lazy" class="icon icon-card">
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="icons/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+          <img src="icons/icons8-github-50.svg" alt="Git Hub" loading="lazy" class="icon icon-card">
+          <img src="icons/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+        </div>
+
+      </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Algunos de mis proyectos</h2>
+    
+    <div class="projects-container">
+
+      <div class="project-container project-card">
+        <img src="images/portafolio2023.JPG" alt="" loading="lazy" class="project-pic">
+        <h3 class="project-title">Portafolio 2023</h3>
+        <p class="project-details">Descripcion del proyecto</p>
+        <a href="https://litzisanchez.github.io/portafolio/" target="_blank" class="project-link">Ver</a>
+      </div>
+
+      <div class="project-container project-card">
+        <img src="images/googleclone.JPG" alt="" loading="lazy" class="project-pic">
+        <h3 class="project-title">Google Clone</h3>
+        <p class="project-details">Descripcion del proyecto</p>
+        <a href="https://litzisanchez.github.io/googleclone/" target="_blank" class="project-link">Ver</a>
+      </div>
+
+      <div class="project-container project-card">
+        <img src="images/pinterestclone.JPG" alt="" loading="lazy" class="project-pic">
+        <h3 class="project-title">Pinterest Clone</h3>
+        <p class="project-details">Descripcion del proyecto</p>
+        <a href="https://pinterest-clone-vert.vercel.app/" target="_blank" class="project-link">Ver</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Redes sociales -->
+   <div class="socials">
+
+    <a href="https://www.linkedin.com/in/litzisanchez/" target="_blank"> <img src="icons/linkedin.png" alt="linkedin" loading="lazy" class="socicon"> </a>
+    <a href="https://github.com/LitziSanchez" target="_blank"> <img src="icons/github.png" alt="github" loading="lazy" class="socicon"> </a>
+    <a href="https://www.instagram.com/litzi.saen" target="_blank"> <img src="icons/instagram.png" alt="instagram" loading="lazy" class="socicon"> </a>
+    <a href="https://www.facebook.com/litzi.saen" target="_blank"> <img src="icons/facebook.png" alt="facebook" loading="lazy" class="socicon"> </a>
+    <a href="https://www.tiktok.com/@litzi.saen" target="_blank"> <img src="icons/tiktok.png" alt="tiktok" loading="lazy" class="socicon"> </a>
+  <a href="mailto:litzi.saen@outlook.com" target="_blank"> <img src="icons/email.png" alt="correo" loading="lazy" class="socicon"> </a>
+  </div>
+
+<!-- Scroll button -->
+ <i class="scroll-up" id="scroll-up"> <img src="images/flecha.gif" alt="boton flecha" class="socicon up-arrow"> </i>
+
+<!-- Footer -->
+ <footer>
+  <p>Build with {♥} by <a href="https://www.instagram.com/litzi.saen" target="_blank">Litzi Sánchez</a>  on <a href="https://tecnolochicas.mx/" target="_blank">TecnolochicasPro</a>  </p>
+ </footer>
+
+ <!-- JavaScript link -->
+  <script src="app.js">  </script>
+
+          <!-- Ion icons scripts -->
+          <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+</body>
+</html>
